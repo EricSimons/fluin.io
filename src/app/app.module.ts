@@ -35,8 +35,7 @@ import { HttpClientModule } from '@angular/common/http';
         HttpClientModule,
         FirebaseToolsModule,
         BrowserAnimationsModule,
-        EmbeddableModule,
-        environment.production ? ServiceWorkerModule.register('/ngsw-worker.js') : [],
+        EmbeddableModule
     ],
     declarations: [
         FluinioAppComponent,
